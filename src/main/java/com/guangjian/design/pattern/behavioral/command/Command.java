@@ -1,7 +1,7 @@
 package com.guangjian.design.pattern.behavioral.command;
 
 /**
- * Created by geely
+ * 定义命令接口
  */
 public interface Command {
     void execute();

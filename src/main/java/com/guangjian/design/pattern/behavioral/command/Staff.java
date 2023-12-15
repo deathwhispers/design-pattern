@@ -4,16 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by geely
+ * 持有命令对象，负责调用命令并执行相关的操作
  */
 public class Staff {
-    private List<Command> commandList = new ArrayList<Command>();
-    public void addCommand(Command command){
+    private List<Command> commandList = new ArrayList<>();
+
+    public void addCommand(Command command) {
         commandList.add(command);
     }
 
-    public void executeCommands(){
-        for(Command command : commandList){
+    public void executeCommands() {
+        for (Command command : commandList) {
             command.execute();
         }
         commandList.clear();

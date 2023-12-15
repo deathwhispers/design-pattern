@@ -1,9 +1,10 @@
 package com.guangjian.design.pattern.behavioral.command;
 
 /**
- * Created by geely
+ * 命令的具体类，实现命令接口
  */
 public class OpenCourseVideoCommand implements Command {
+
     private CourseVideo courseVideo;
 
     public OpenCourseVideoCommand(CourseVideo courseVideo) {
