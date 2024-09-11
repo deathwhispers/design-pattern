@@ -1,8 +1,5 @@
 package com.dw.design.pattern.behavioral.strategy;
 
-/**
- * Created by geely
- */
 public class PromotionActivity {
     private PromotionStrategy promotionStrategy;
 
