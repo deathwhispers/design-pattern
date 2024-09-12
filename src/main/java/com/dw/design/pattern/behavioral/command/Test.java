@@ -1,8 +1,5 @@
 package com.dw.design.pattern.behavioral.command;
 
-/**
- * Created by geely
- */
 public class Test {
     public static void main(String[] args) {
         CourseVideo courseVideo = new CourseVideo("Java设计模式精讲 -- By Geely");
