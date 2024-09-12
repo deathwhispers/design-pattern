@@ -1,8 +1,5 @@
 package com.dw.design.pattern.behavioral.chainofresponsibility;
 
-/**
- * Created by geely
- */
 public abstract class Approver {
     protected Approver approver;
 

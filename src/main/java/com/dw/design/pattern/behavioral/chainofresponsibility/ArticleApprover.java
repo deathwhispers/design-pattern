@@ -2,9 +2,6 @@ package com.dw.design.pattern.behavioral.chainofresponsibility;
 
 import org.apache.commons.lang.StringUtils;
 
-/**
- * Created by geely
- */
 public class ArticleApprover extends Approver {
     @Override
     public void deploy(Course course) {

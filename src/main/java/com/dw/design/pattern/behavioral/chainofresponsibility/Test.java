@@ -1,8 +1,5 @@
 package com.dw.design.pattern.behavioral.chainofresponsibility;
 
-/**
- * Created by geely
- */
 public class Test {
     public static void main(String[] args) {
        Approver articleApprover = new ArticleApprover();
